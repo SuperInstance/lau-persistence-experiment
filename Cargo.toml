@@ -1,0 +1,13 @@
+[package]
+name = "lau-persistence-experiment"
+version = "0.1.0"
+edition = "2021"
+description = "Persistence diagrams of agent belief manifolds predict learning trajectories"
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
